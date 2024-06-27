@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "findFactorial",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClassWork/classwork4.sol": "fact"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ClassWork/classwork4.sol": {
+			"keccak256": "0x58a4120870c3e13cd0c603d4671e694b0038c079e2b347c6d07e32388d6493cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c956fa3190b50fffa9d4f2ad25831fbbe1ad11d4f445f99b4d07ff62a0417542",
+				"dweb:/ipfs/QmZNTSoZugWnqPNboT4gZJf78JFTRtYb3uYVNYFibPKLXv"
+			]
+		}
+	},
+	"version": 1
+}

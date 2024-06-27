@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_sound",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "makeSound",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClassWork/practice12.sol": "Animal"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ClassWork/practice12.sol": {
+			"keccak256": "0x12487381905a1ddaa56b8e9dd1f308474f23ce85896b6a6a2012a3491b6af8bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d8d8cdf04c92e946fb023269ada554f016bbd61c592d261278ca5a2fd7083e17",
+				"dweb:/ipfs/QmWLUuq27qu7ULv7QmvVmfAHQTmdaaXeANDDh1H6bjEPZL"
+			]
+		}
+	},
+	"version": 1
+}

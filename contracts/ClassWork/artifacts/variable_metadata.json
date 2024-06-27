@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/blockchainlearning/StateVariables.sol": "variable"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/blockchainlearning/StateVariables.sol": {
+			"keccak256": "0x2378675eddfb1e884de94b05ac9528e5a505b909bb73a1ba8c2fffcbb1f7d7dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34ee5d4fd6dc60a6fc75c93e709f9521f332638261a06b46f786227fd102740f",
+				"dweb:/ipfs/QmRcZcomj2n7bYw5U7A9jCphWarh9GcgWbQpEaKUxVjnfv"
+			]
+		}
+	},
+	"version": 1
+}

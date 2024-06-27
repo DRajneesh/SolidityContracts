@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/blockchainlearning/que.sol": "liveq"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/blockchainlearning/que.sol": {
+			"keccak256": "0x934c0b5054a2d1c357b5d161f199fd908280615a2d2955a3242b4cb07d049d2b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49f241026c72e37e7f1011a24f4b8f42844eb88cd56ea66b94ec6de18706da43",
+				"dweb:/ipfs/QmXKp3CZjK1H9Z2mb3nLZomp9Eeeyf6zGXaspUqUTAHaFq"
+			]
+		}
+	},
+	"version": 1
+}

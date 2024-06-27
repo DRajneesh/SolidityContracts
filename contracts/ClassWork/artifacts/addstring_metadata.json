@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_string",
+						"type": "string"
+					}
+				],
+				"name": "append",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "greeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClassWork/classwork3.sol": "addstring"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ClassWork/classwork3.sol": {
+			"keccak256": "0xfb08220eac3c8835e3a0509a756d9116ece216207c5d8fdb099bd065e9a3a95c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://342541fb85c308cbcd4f8c876d9ed0905690d4aedb95d207ff064dbaeab08d19",
+				"dweb:/ipfs/QmbC1VfYrSKsoQEDNBJ4ASS6pr9x4iFA8rZbf3dnWR3GHj"
+			]
+		}
+	},
+	"version": 1
+}

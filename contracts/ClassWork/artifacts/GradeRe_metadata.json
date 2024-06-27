@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClassWork/que9.sol": "GradeRe"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ClassWork/que9.sol": {
+			"keccak256": "0x352389d6fce6e2a379df005ce31c3643e2074b2adfa52fe70338c9df6f1c4b4c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61e400a2bc1d13ebad41889875d202af0e760218c5ba62f98c23abe4a740ce83",
+				"dweb:/ipfs/QmYhbH7tAMXUPLyxbCXQXKpCVZ8WUCjcHMa3a4rLYqX9NS"
+			]
+		}
+	},
+	"version": 1
+}

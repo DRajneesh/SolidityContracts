@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Grades",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "Grade",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "uid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "grade",
+						"type": "string"
+					}
+				],
+				"name": "addingGrade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClassWork/3_gradeRegistry.sol": "GradeRegistry"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ClassWork/3_gradeRegistry.sol": {
+			"keccak256": "0xadd63046e784acffd75fc2c3adf9cb468cc956483073beea4a3b9385dac9b09c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ecf690355bf664f8210df3a67b8a5461d3790208ceb26cee74988e7701758fe5",
+				"dweb:/ipfs/QmbW1kM1aUWuCAyFwsAqnbqM8diHPKmvYSEgfLY4zmX7eG"
+			]
+		}
+	},
+	"version": 1
+}

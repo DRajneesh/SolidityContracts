@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Products",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "productName",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "currentOwner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "productRegistration",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newUser",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pid",
+						"type": "uint256"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ClassWork/5_productOwnership.sol": "productRegistry"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ClassWork/5_productOwnership.sol": {
+			"keccak256": "0x9cb9a9fe34d19db2ec916ed8bee92f8a9cb3b466af2421f057474f747acf8a29",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56510fe85ea9c1fa9bd6e7410e3ffbc7d1ce6cfda662523b93cc3857b01c619f",
+				"dweb:/ipfs/QmWKBKJFj11ZkYntJB7FVaph2LybFNpNRkk2kUouDfgni2"
+			]
+		}
+	},
+	"version": 1
+}
